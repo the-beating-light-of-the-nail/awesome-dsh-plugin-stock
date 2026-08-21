@@ -3,6 +3,8 @@
 [English](README.md) | 中文
 
 > 一个专注于 **股票 / 金融 / 量化** 的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）插件垂直精选列表。
+>
+> 🌐 带截图浏览全部已验证股票/量化插件：[DSH Meme Hub · 股票金融](https://dsh-meme-hub.cdqyfdbymn.me/zh/plugins/stock)
 
 DeepSeek Harness 是 DeepSeek 开源的 agent harness，一切皆插件，社区产出极快。通用目录收录"大而全"——找股票插件要跨分类翻半天；这份列表只收录**交易、行情数据、量化研究、投研分析、券商接入**相关插件，一站式直达。
 

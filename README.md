@@ -3,6 +3,8 @@
 English | [中文](README.zh.md)
 
 > A curated vertical list of **stock / finance / quant** plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).
+>
+> 🌐 Browse all verified stock/quant plugins with screenshots on [DSH Meme Hub — Stocks & Quant](https://dsh-meme-hub.cdqyfdbymn.me/plugins/stock).
 
 DeepSeek Harness is DeepSeek's open-source agent harness — everything is a plugin, and the community has been shipping a lot of them. General directories list *everything*; this list only tracks plugins for **trading, market data, quant research, investment analysis, and broker access** — so you don't have to dig through hundreds of UI tweaks to find the finance stuff.
 
