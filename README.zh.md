@@ -48,6 +48,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness，一切皆插件，社区
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - dsh 原生量化工具包（npm 包，46 个 `quant_*` 工具/6 域）：数据→指标→因子→回测→风险→执行模拟的端到端 PDAT→PET 研究管线，另有 UI/CLI。★12 · 加密/A股/美股 · Binance/OKX/Bybit/Yahoo/新浪/腾讯 + 15 通道知识库（含 Tushare/AkShare）· MIT
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - 交易研究工作台插件集（5 个 npm 包）：类型化行情数据接缝、CSV provider 模板、确定性指标库、交互式 K 线卡片 + `risk-guard` 预执行门禁。硬边界：只研究不下单。★6 · 美股/加密 · 自带 CSV（可接 ClickHouse/CCXT/券商 API）· MIT
 - [dmsobtl/dsh-quant-workbench](https://github.com/dmsobtl/dsh-quant-workbench) - 量化研究工作台 profile 包：组合 market-data/backtest/vision-router/session-analyst 四插件 + 3 个预置 skill（动量扫描/策略回测/加密分析）。★1 · A股/美股/加密 · 新浪/东方财富/Yahoo/Binance
+- [vicfei/dsh-trustquant](https://github.com/vicfei/dsh-trustquant) - 面向金融 agent 的可信计算层：QuantLib 钉死的期权定价 + Greeks、组合优化（锁定版 PyPortfolioOpt 边车）、风险/压力与 EUR 曲线 bootstrapping + 香草互换。每个结果带机器可读单位、计算清单与同环境重放验证（摘要逐字节一致）。零数据源（自包含输入）、零凭据、计算全程不联网。★0 · Apache-2.0
 - [linxichen/dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant) - 实证/计算金融数学研究框架（agent preset + skills + 角色路由）：上下文隔离的多 agent 研究实验室，组合构建/优化、仿真、经济金融计算，含证据元验证器。★2 · sympy/cvxpy 计算环境（无行情源）· MIT
 - [kentleenot/dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - A股+美股行情/K线/ADX 三状态信号/简易多空回测工具包；作者实盘策略以只读教学形式开放，永不下单。★0 · 东方财富 · MIT
 - [AllenCX/dsh-quant-workspace](https://github.com/AllenCX/dsh-quant-workspace) - 自包含量化研究工作区：内置 Python 引擎拉 Yahoo 日线、单标的信号卡/规则回测/健康复查、交互式 HTML 图表、策略注册表，只读设计。★0 · Yahoo Finance · MIT
@@ -94,6 +95,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness，一切皆插件，社区
 | dsh-trading（maddog） | 美股/加密 | 自带 CSV（ClickHouse/CCXT/券商） | ✗（risk-guard 门禁） | 无 |
 | dsh-quant-workbench | A/美/加密 | 新浪/东方财富/Yahoo/Binance | ✗ | 无 |
 | dsh-rigorquant | — | sympy/cvxpy（无行情源） | ✗ | 无 |
+| dsh-trustquant | —（自包含输入） | QuantLib 钉死引擎（期权/利率/组合） | ✗ | 无 |
 | dsh-trading-toolkit | A/美 | 东方财富 | ✗ | 无 |
 | dsh-quant-workspace | 美股 | Yahoo Finance | ✗ | 无 |
 | dsh-invest-research | A/港/美 | 东方财富/腾讯 | ✗ | 无 |
