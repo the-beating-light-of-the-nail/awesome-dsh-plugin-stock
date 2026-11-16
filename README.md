@@ -54,7 +54,7 @@ Every entry has been verified against its README (function, install method, data
 
 ## 💼 Investment & Financial Research
 
-- [markthc/dsh-caidazi-boards](https://github.com/markthc/dsh-caidazi-boards) - Four investment research boards covering memory, AI infrastructure, PCB/CCL and US data-center policy, with Caidazi MCP quotes/research, Yahoo price charts and versioned research snapshots; live refresh requires a Caidazi API key. ★0 · Caidazi MCP / Yahoo Finance / sourced research snapshots · MIT
+- [markthc/dsh-caidazi-boards](https://github.com/markthc/dsh-caidazi-boards) - Four investment research boards covering memory, AI infrastructure, PCB/CCL and US data-center policy, with Caidazi MCP quotes/research, Yahoo price charts and versioned research snapshots, with live refresh requiring a Caidazi API key. ★0 · Caidazi MCP / Yahoo Finance / sourced research snapshots · MIT
 - [eclipti/dsh-invest-research](https://github.com/eclipti/dsh-invest-research) - A-share full-chain investment research: one command runs quote snapshot → Buffett seven-dimension value score → risk scan → analyst consensus → conservative DCF valuation, outputting a structured research report. ★0 · Eastmoney (Tencent fallback) · MIT
 - [hancao97/hanai-investment-dsh](https://github.com/hancao97/hanai-investment-dsh) - Local-first A-share value research workbench (standalone profile with a full React product): market dashboard, watchlist, 4 investor-persona agents, versioned reports, follow-up Q&A. ★3 · Eastmoney / Tencent / GuruFocus · MIT
 - [v587d/capital-generation](https://github.com/v587d/capital-generation) - AI investment agent aimed at Chinese retail investors (Python + MCP, installed as a dsh bundle). BYOK: Wind, Tonghuashun and AkShare as free fallback. ★? · Apache-2.0
