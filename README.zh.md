@@ -54,6 +54,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness，一切皆插件，社区
 
 ## 💼 投研与财务分析
 
+- [markthc/dsh-caidazi-boards](https://github.com/markthc/dsh-caidazi-boards) - 存储、AI基建、PCB/CCL及美国数据中心政策四个研究看板，结合财搭子MCP行情与资料、Yahoo行情图表及版本化研究快照；实时刷新需财搭子API Key。★0 · 财搭子MCP / Yahoo Finance / 带来源的研究快照 · MIT
 - [eclipti/dsh-invest-research](https://github.com/eclipti/dsh-invest-research) - A股全链路投研：一条命令跑完行情快照→巴菲特七维价值评分→风险扫描→机构共识→保守 DCF 估值五层，输出结构化研报。★0 · 东方财富（腾讯备用）· MIT
 - [hancao97/hanai-investment-dsh](https://github.com/hancao97/hanai-investment-dsh) - 本地优先 A股价值研究工作台（独立 profile，React 全屏产品 + DSH runtime）：市场仪表盘/自选/4 个投资人 agent 大师研判/版本化报告/报告后追问。★3 · 东方财富/腾讯/GuruFocus · MIT
 - [v587d/capital-generation](https://github.com/v587d/capital-generation) - 面向中国股市小散户的金融投资智能体（Python + MCP，dsh bundle 安装）。BYOK：Wind/同花顺免费 Key + AKShare 兜底。· Apache-2.0
@@ -81,6 +82,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness，一切皆插件，社区
 
 | 插件 | 市场 | 数据源/平台 | 实盘交易 | 凭据 |
 |---|---|---|---|---|
+| dsh-caidazi-boards | A股 / 美股 | 财搭子MCP / Yahoo Finance / 带来源的研究快照 | ✗ | 财搭子API Key（可先看静态预览） |
 | dsh-longbridge | 港/美股 | 长桥 OpenAPI | ✅（DSH 审批门禁） | 凭据保险箱 |
 | dsh-ths-holdings | A股 | 同花顺投资账本 | ✗（只读） | Cookie→ctx.credentials |
 | Awu12277/dsh-stock-watch | A股 | 腾讯财经 | ✗ | 无 |
